@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nostalgic Radio</title>
+	<link rel="stylesheet" href="./css/shared.css">
+	<link rel="stylesheet" href="./css/radio.css">
+
+</head>
+
+<body>
+	<div class="main-container">
+		<main class="radio">
+			<div class="livingroom-item radio-power">
+				<a href="livingroom.html">
+					<img src="./images/radio_powerbutton.png">
+				</a>
+				<img id="button1" src="./images/radiodial_1.png" onclick="sound1.play(), sound2.pause(), sound3.pause(), changeButton(1)" style="position:absolute; left:730%; bottom:-129%; z-index:1"/>
+				<img id="button2" src="./images/radiodial_2.png" onclick="sound2.play(), sound1.pause(), sound3.pause(), changeButton(2)" style="position:absolute; left:730%; bottom:-129%; z-index:-1"/>
+				<img id="button3" src="./images/radiodial_3.png" onclick="sound3.play(), sound1.pause(), sound2.pause(), changeButton(3)" style="position:absolute; left:730%; bottom:-129%; z-index:-1"/>
+				<img id="button4" src="./images/radiodial_4.png" onclick="sound1.pause(), sound2.pause(), sound3.pause(), changeButton(4)" style="position:absolute; left:730%; bottom:-129%; z-index:-1"/>
+			</div>
+		</main>
+	</div>
+</body>
+<script src="js/radio-close.js"></script>
+
+</html>

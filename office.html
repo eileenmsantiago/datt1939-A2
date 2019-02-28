@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/shared.css">
+        <link rel="stylesheet" href="./css/office.css">
+    </head>
+<script>
+			var officeAudio = new Audio();
+			officeAudio.src = "./audio/office_sound.mp3";
+			officeAudio.addEventListener('ended', function() {
+				this.load();
+				this.currentTime = 0;
+				this.play();
+			}, false);
+		</script>
+    <body>
+        <div class="main-container" onclick="officeAudio.play()">
+            <main class="office">
+                <div class="website_container">
+                    <iframe class="website_iframe" src="https://atarivcs.com/">
+                    </iframe>
+                </div>
+                <div class="statement-reminder">
+                    <span id="statement" class="statement">
+                        <b>REMINDER</b> Accounting <a href="./statement.html">Statement</a> Due Oct 14,2018
+                    </span>
+                </div>
+
+            </main>
+        </div>
+
+    </body>
+
+    <script src="../datt1939-a2/js/cookies.js"> </script>
+
+
+</html>

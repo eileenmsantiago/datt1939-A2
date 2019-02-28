@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Nostalgia Room</title>
+        <link rel="stylesheet" href="./css/shared.css">
+        <link rel="stylesheet" href="./css/livingroom.css">
+    </head>
+
+    <body>
+        <div class="main-container">
+            <main class="livingroom">
+                <div class="card-container">
+                    <input type="checkbox" id="zoomCheck">
+                    <label for="zoomCheck">
+                        <img id="card-img" src="images/card-closeup.png"/>
+                    </label>
+                </div>
+                <!-- calendar now brings you to a new html page -->
+                <div id="calendar" class="livingroom-item calendar">
+                    <a href="calendar.html">
+                        <img id="cal-img" src="images/calendar_onclick.png"/>
+                    </a>
+                </div>
+                <div class="livingroom-item atari">
+                    <img id="atari_onclick" src="images/atari.gif">
+                </div>
+                <!-- tv to tv-close.html -->
+                <div class="livingroom-item tv">
+                    <a href="./tv-close.html">
+                        <img id="tv" src="images/tv.gif">
+                    </a>
+                </div>
+                <!--Atari Page Link-->
+                <div class="atarigame">
+                    <a href="./atari.html">
+                        <img id="atari_controller" src="images/atari_controller.png">
+                    </a>
+                </div>
+
+                <div id="radio" class="livingroom-item radio">
+					<a href="./radio-close.html">
+                    <img src="images/radio_page.jpg">
+					</a>
+                </div>
+
+                <div id="radio-dial" class="livingroom-item radio-dial">
+                    <img id="radio_onclick" src="images/radiodial_1.png">
+                </div>
+                <div id="viewbook" class="livingroom-item viewbook"> View Book
+                    <a href="./book.html"> <img src="images/notebook.png"> 
+                    </a>
+                </div>
+                <div id="exit" style="display:none" class="livingroom-item exit">
+                    <a href="./exit.html">
+                        <img src="images/arrow.png">
+                    </a>
+                </div>
+            </main>
+        </div>
+
+    </body>
+
+    <script src="./js/cookies.js"></script>
+    <script src="./js/livingroom.js"> </script>
+
+</html>
+
+

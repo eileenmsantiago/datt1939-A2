@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="./css/shared.css">
+        <link rel="stylesheet" href="./css/book.css">
+
+    </head>
+
+    <body>
+        <div class="main-container">
+            <main class="book"> 
+                <div class="next-room">
+                    <a href="livingroom.html">Go to The Nostalgia Room</a>
+                </div>
+
+                <div class="greeting" id="greeting">
+
+                    Greetings <span id="name"></span>! 
+                    <br/>
+                    This is your ledger.
+                    <br/>
+                    <br/>
+                    <br/>
+                    Time travel items:
+                    <span id="item-count"></span> / 5
+                    <br>
+                    <br>
+                    <span id="instructions" class="instructions">
+                        Play around with some of the old things you <i>used</i> to once love playing with. The Nostalgia Room is yours to explore. 
+                        <br>
+                        <b>***IMPORTANT***</b>
+                        <br>
+                        <b>You must revisit all items before you leave the room.</b>
+                    </span>
+                    <br>
+                    <br>
+                    Want to start again? <a href="index.html"><b>Re</b>start</a>
+                </div>
+
+                <ul class="item-list">
+                    Happy Birthday Son! We love you so much. We wish you
+                    <li id="card-item" class="item">
+                        <span id='card-redacted'>
+                            ███ ██ ███. ██ ███ ██ █ ████████ ████████ ████ ████████
+                        </span>
+                        <span id='card-complete' class='complete-text'>
+                            all the best. We got you a little something fun to play with by the TV. Enjoy! 
+                        </span>
+                        Love, Mom & Dad
+                        <br>
+                    </li> 
+                    <br>
+                    <br>
+                    Today is 
+                    <li id="calendar-item" class="item">
+                        <span id='calendar-redacted'>
+                            ███ ██ █████.
+                        </span>
+                        <span id='calendar-complete' class='complete-text'>
+                            your Birthday.
+                        </span>
+                    </li>
+                    <br>
+                    <br>
+                    Remeber this old guy?! 
+                    <li id="atari-item" class="item">
+                        <span id="atari-redacted">
+                            ███ █████ ██ █████ █████ ███████ ██.
+                        </span>
+                        <span id="atari-complete" class="complete-text"></span>
+                            You used to spend hours playing it. 
+                        </span>
+                    </li>
+                    <br>
+                    <br>
+                    Your favorite shows 
+                    <li id="tv-item" class="item">
+                        <span id="tv-redacted">
+                            ████ ██ ████ ██ ████ ███ ████.
+                        </span> 
+                        <span id="tv-complete" class="complete-text">
+                            used to play on this old junk! 
+                        </span>
+                    </li>
+                    <br>
+                    <br>
+                    You used to love listening 
+                    <li id="radio-item" class="item">
+                        <span id="radio-redacted">
+                            ██ ████████ ███ ██████ ██ ███ ████!
+                        </span>
+                        <span id="radio-complete" class="complete-text">
+                            to whatever was playing on the radio!
+                        </span>
+                    </li>
+                </ul>
+            </main>
+        </div>
+
+    </body>
+
+    <script src="./js/cookies.js"> </script>
+    <script src="./js/book.js"> </script>
+
+</html>
