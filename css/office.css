@@ -1,0 +1,36 @@
+.office {
+    position: relative;
+    background-image: url(../images/office_page.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.website_container {
+    top: 330px;
+    left: 40px;
+    width: 444px;
+    height: 256px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.website_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: -50px;
+    padding-right: 50px;
+    height: 100%;
+    width: 464px;
+    border: 0;
+    overflow-y: scroll;
+}
+.statement {
+    position: absolute;
+    top: 350px;
+    left: 595px;
+    height: 100%;
+    width: 35px;
+    font-size: 9px;
+}

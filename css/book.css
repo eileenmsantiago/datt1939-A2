@@ -1,0 +1,53 @@
+.book {
+    position: relative;
+    background-image: url(../images/notebook.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.next-room {
+    border: 2px solid  rgb(253, 0, 95);
+    position: absolute;
+    left: 400px;
+    top: 600px;
+    padding: 1%;
+    justify-content: center;
+}
+.greeting { 
+    border: 2px solid grey;
+    color: #fafafa;
+    font-size: 20px;
+    margin-left: -26px;
+    margin-right: 842px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    padding: 3%;
+    left: 215px;
+    top: 300px;
+    text-align: left;
+}
+
+.instructions {
+    font-size: 14px;
+}
+
+.item-list {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    width: 450px;
+
+}
+
+.item {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* .redacted-text {
+
+} */
+
+.complete-text {
+    display: none;
+}

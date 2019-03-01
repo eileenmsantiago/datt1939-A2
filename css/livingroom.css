@@ -1,0 +1,110 @@
+.livingroom {
+    position: relative;
+    background-image: url(../images/page1_wall1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.livingroom-item {
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.livingroom-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.atarigame {
+    position: relative;
+    widows: 50%;
+    left: 341px;
+    top: -75px;
+}
+
+.card {
+    width: 120px;
+    height: 75px;
+    top: 534px;
+    left: 170px;
+    cursor: pointer;
+
+}
+
+.calendar {
+    width: 13.5%;
+    height: 17%;
+    top: 236px;
+    left: 246px;
+}
+
+.atari {
+    /* display: none; */
+    width: 18.5%;
+    height: 7%;
+    top: 432px;
+    left: 450px;
+}
+
+.tv {
+    width: 20.45%;
+    height: 28%;
+    top: 264px;
+    left: 657px;
+}
+.tv_onclick {
+    width: 3.3%;
+    height: 3.5%;
+    top: 331px;
+    left: 820px;
+}
+.radio {
+    width: 15.5%;
+    height: 14.9%;
+    top: 505px;
+    left: 552px;
+}
+
+.radio-dial {
+    width: 2.5%;
+    height: 3%;
+    top: 572px;
+    left: 661px;
+    transition: transform 1s ease-in;
+    cursor: pointer;
+}
+
+/* don't touch this is how the card zooms */
+input[type=checkbox] {
+    display: none;
+  }
+  
+  .card-container img {
+    width: 120px;
+    height: 75px;
+    margin-top: 534px;
+    margin-left: 170px;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+  }
+  
+  input[type=checkbox]:checked ~ label > img {
+    transform: scale(3);
+    cursor: zoom-out;
+    margin-bottom: 500px;
+  }
+
+  .viewbook {
+    width: 17%;
+    height: 17%;
+    top: 30px;
+    left: 850px;
+    text-align: center;
+  }
+  .exit {
+    width: 8%;
+    height: 13%;
+    top: 300px;
+    left: 920px;
+  }
